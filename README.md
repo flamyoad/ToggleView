@@ -78,7 +78,7 @@ class MainViewModel: ViewModel() {
 ```
 
 
-### Include the dependency in Gradle 
+## Include the dependency in Gradle 
 Add the Jitpack repository in your project `build.gradle`
 ```
 repositories {
