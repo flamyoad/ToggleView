@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
         app:viewOff="@layout/layout_bookmark_off"
-        app:viewOn="@layout/layout_bookmark_on" />
+        app:viewOn="@layout/layout_bookmark_on"
+        app:initialState="off"/>
 
 </FrameLayout>

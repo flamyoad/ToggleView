@@ -15,12 +15,12 @@ class MainActivity : AppCompatActivity() {
 
         val btnBookmark = findViewById<ToggleView>(R.id.btnBookmark)
 
-        btnBookmark.setOnClickListener {
-            viewModel.toggleBookmarkStatus()
-        }
-
-        viewModel.bookmarkStatus().observe(this) {
-            btnBookmark.isChecked = it
-        }
+//        btnBookmark.setOnClickListener {
+//            viewModel.toggleBookmarkStatus()
+//        }
+//
+//        viewModel.bookmarkStatus().observe(this) {
+//            btnBookmark.isChecked = it
+//        }
     }
 }
