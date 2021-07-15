@@ -1,6 +1,8 @@
 # ToggleView
 Toggle button for reactive observables.
 
+<img src="https://user-images.githubusercontent.com/35066207/125737371-9660349f-3bc5-4df8-8076-07c4dec0b465.gif" width="300" height="667"/>
+
 ## Should you need this?
 The default [ToggleButton](https://developer.android.com/guide/topics/ui/controls/togglebutton) that is built in Android does not play nicely 
 with observables such as LiveData, Flow or Rx subjects.
