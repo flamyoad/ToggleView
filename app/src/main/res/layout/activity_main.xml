@@ -4,16 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#595959">
 
     <com.flamyoad.toggle_view.ToggleView
         android:id="@+id/btnBookmark"
+        android:padding="4dp"
         android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
         app:viewOff="@layout/layout_bookmark_off"
-        app:viewOn="@layout/layout_bookmark_on"
-        app:initialState="off"/>
+        app:viewOn="@layout/layout_bookmark_on" />
 
 </FrameLayout>

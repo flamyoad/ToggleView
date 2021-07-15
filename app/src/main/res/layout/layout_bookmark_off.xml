@@ -13,6 +13,7 @@
         android:drawableStart="@drawable/bookmark_button_drawable_selector"
         android:drawablePadding="4dp"
         android:checked="false"
+        android:textColor="@color/white"
         android:clickable="false"
         android:textOff="Bookmark"
         android:textOn="Bookmarked"
